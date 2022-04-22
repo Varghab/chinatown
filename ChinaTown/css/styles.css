@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 10px;
+}
+
+
+header{
+    height: 100vh;
+    background-image: url(../images/vincent-keiman-ul_m5dHThaM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+
+.logo-box img{
+    width: 23rem;
+}
+
+.nav-menu-box{
+    width: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-menu-box a{
+    text-decoration: none;
+    color: #dedede;
+    font-size: 2.2rem;
+    transition: all .3s ease;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+
+nav button{
+    border: none;
+    color: white;
+    padding: 1rem 1.5rem;
+    background-image: linear-gradient(to right bottom, #FF7A00,#D44000);
+    border-radius: 4px;
+    font-size: 1.7rem;
+}
+
+nav button:hover{
+    cursor: pointer;
+    
+}
+
+.nav-menu-box a:hover{
+    color: #D44000;
+}
+
+.header-mid{
+    margin-top: 15rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-sec{
+    width: 36rem;
+    color: white;
+    padding: 3rem;
+}
+
+.left-sec h2{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 3.9rem;
+}
+
+.left-sec button{
+    border: none;
+    color: white;
+    padding: 1rem 1.5rem;
+    background-image: linear-gradient(to right bottom, #FF7A00,#D44000);
+    border-radius: 4px;
+    font-size: 1.7rem;
+    margin-top: 1rem;
+}
+
+.right-sec{
+    background-image: linear-gradient(to right bottom, #FFEFCF,#FFEFCF);
+    padding: 4rem 5rem;
+    border-radius: 6px;
+    width: 40rem;
+    align-content: center;
+    box-shadow: 3px 5px 8px rgb(0, 0, 0);
+}
+
+.right-sec h2{
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 1.4rem;
+    color: rgb(51, 51, 51);
+}
+
+label{
+    font-size: 1.5rem;
+    color: black;
+}
+
+input[type="submit"]{
+    border: none;
+    color: white;
+    padding: 1rem 1.5rem;
+    background-image: linear-gradient(to right bottom, #FF7A00,#D44000);
+    border-radius: 4px;
+    font-size: 1.7rem;
+    /* margin-top: 1rem; */
+}
+
+input[type="text"]{
+    margin: .7rem 0 1.2rem;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    color: black;
+}
+
+#grill{
+    color:#FF7A00;
+}
